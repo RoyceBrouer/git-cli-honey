@@ -66,3 +66,9 @@ spiced-bootcamp git clone and copy that clone link f.e. git@github.com:RoyceBrou
 
 How remove session-notebook\_
 (Was cloned)
+
+if I merge a branch can I go back into it and use it again?
+
+how copy for my course mates
+
+use upPfeil to go through all my previous commands
