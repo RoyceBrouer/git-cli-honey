@@ -1,0 +1,22 @@
+.header {
+    background-color: var(--dark-pink);
+    border-bottom: 1px solid var(--dark-blue);
+}
+
+.header__title {
+    font-size: 1em;
+    padding: 10px;
+    font-weight: normal;
+    text-align: left;
+    color: var(--blue);
+}
+
+.session {
+    flex-grow: 2;
+}
+
+.footer {
+    background-color: var(--dark-pink);
+    border-top: 1px solid var(--dark-blue);
+    padding: 5px;
+}

@@ -1,0 +1,27 @@
+* {
+    /* background-color: blueviolet; */
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(214, 214, 244);
+}
+
+ul {
+    font-size: 2rem;
+}
+/* change here rem to em to see how it change */
+li {
+    font-size: 1rem;
+}
+
+.square-big {
+    background-color: brown;
+    width: 50vw;
+    height: 50vh;
+}
+
+.square-small {
+    background-color: aquamarine;
+    width: 50%;
+    height: 50%;
+}

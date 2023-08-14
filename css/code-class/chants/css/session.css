@@ -1,0 +1,113 @@
+.session__title {
+    font-size: 2em;
+    padding-top: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: var(--blue);
+}
+
+.session__card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.session__card-container__card {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.card__description__title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.session__card-container img {
+    width: 3em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card__description h3 {
+    font-size: 1rem;
+    padding: 10px 0px 5px 0px;
+}
+
+.card__description p {
+    padding-bottom: 15px;
+    line-height: 1.6;
+}
+
+@media screen and (min-width: 800px) {
+    :root {
+        --dark-pink: #4682a9;
+        --light-pink: #91c8e4;
+        --light-grey: #f5f6f6;
+    }
+    .header,
+    .footer {
+        border-color: var(--light-grey);
+        color: var(--light-grey);
+    }
+
+    .header__title,
+    .session__title {
+        color: var(--light-grey);
+    }
+
+    .session__card-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .session__card-container__card {
+        width: 650px;
+        gap: 15px;
+    }
+    .session__card-container img {
+        width: 15em;
+        height: 15em;
+        align-self: center;
+        border-radius: 12px;
+        box-shadow: 1px 1px 15px 3px rgba(0, 0, 0, 0.57);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --dark-pink: #4e9f3d;
+        --light-pink: #1e5128;
+        --light-grey: #f5f6f6;
+    }
+    h1,
+    h2,
+    h3 {
+        color: var(--dark-pink);
+    }
+    .header,
+    .footer {
+        border-color: var(--light-grey);
+        color: var(--light-grey);
+    }
+    .header__title,
+    .session__title,
+    p {
+        color: var(--light-grey);
+    }
+
+    .session__card-container img {
+        box-shadow: 1px 1px 15px 3px rgba(251, 249, 249, 0.57);
+    }
+}
+
+@media screen and (min-width: 800px) and (prefers-color-scheme: dark) {
+    :root {
+        --dark-pink: #7858a6;
+        --light-pink: #371b58;
+        --light-grey: #f5f6f6;
+    }
+}
